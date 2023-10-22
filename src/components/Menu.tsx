@@ -25,7 +25,7 @@ const Menu = () => {
     const [open, setOpen] = useState(false);
     const user = false;
   return (
-    <div>
+    <div className='cursor-pointer'>
       {!open? (
         <Image src="/open.png" alt="" width={20} height={20} onClick={()=>setOpen(true)}/>
         ) :(
